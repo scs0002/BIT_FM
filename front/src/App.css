@@ -1,0 +1,171 @@
+
+
+#Login-LoginForm__loginBtn {
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+
+#header__Navbar {
+  background-color: red;
+}
+
+#header__mainLogo {
+  font-size: 30px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+#header__account {
+  margin-right: 100px;
+}
+
+#header__accountInfo {
+  color: black;
+  font-size: 16px;
+}
+
+#header--account__img {
+  margin-left: 5px;
+  height: 30px;
+}
+
+.Contents-Header {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    width: 300px;
+    border-bottom: 1px solid #444;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Contents-Container>* {
+  margin-bottom: 10px;
+}
+
+#AddMenu--menuAddBtn {
+  border: 1px solid skyblue;
+  background-color: rgba(0,0,0,0);
+  color: skyblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#AddMenu--menuAddBtn:hover{
+  color:white;
+  background-color: skyblue;
+}
+
+#AddMenu--menuBar {
+  background-color: skyblue;
+  border: 1px solid skyblue;
+}
+
+#Contents-Container--MenuList {
+  text-align: center;
+  /* width: 360px;
+  height: 410px; */
+  width: 1080px;
+  height: 460px;
+  overflow: auto;
+  margin: 50px auto;
+}
+
+.Contents-Container--MenuList__Menu {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+} 
+
+.Contents-Container--MenuList__MenuImg {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.footer {
+  position: absolute;
+   border-top: 1px solid #444;  
+  color: black;
+  font-weight: bold;
+  background-color: lightgray;
+  width: 100%;
+  padding: 30px;  
+  margin-top: 30px;
+  bottom : 0; 
+}
+
+.mb-3>*{
+  margin-bottom: 10px;
+}
+
+.register{
+  margin-top: 10px;
+  
+}
+.register>span>a {
+  color: black;
+  text-decoration: none;
+  font-weight: bo;
+}
+.search {
+  float: right;
+}
+
+
+.ex-layout{ height: 240px }
+	.main .left-menu{
+		float: left;
+		width: 210px;
+		height: 240px;
+	}
+	.main .content{
+		float: left;
+		width: 250px;
+		height: 240px;
+	}
+	.main .content .article{
+		height: 80px;
+	}
+	.main .content .comment{
+		height: 70px;
+	}
+
+/* 파일 css */
+.filebox {
+  display:inline-block; 
+  margin-top: 20px;
+  float:left;
+}
+
+.filebox label {
+display: inline-block;
+padding: .5em .75em;
+color: #fff;
+font-size: inherit;
+line-height: normal;
+vertical-align: middle;
+background-color: #0d6efd;
+cursor: pointer;
+border: 1px solid #0d6efd;
+border-bottom-color: #0d6efd;
+border-radius: .25em;
+}
+
+.filebox input[type="file"] {  /* 파일 필드 숨기기 */
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip:rect(0,0,0,0);
+border: 0;
+}

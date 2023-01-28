@@ -1,0 +1,50 @@
+.searchBarContainer{
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.searchArea{
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.characterImageArea{
+    float: right;
+}
+
+.outline{
+    position: relative;
+    margin: 0px auto;
+}
+
+.offcanvas-body--bodyzone{
+    text-align: center;
+}
+.offcanvas-body--buttonzone>*{
+    text-align: center;
+}
+
+.offcanvas-body--buttontab{
+    text-align: center;
+    width: 100%;
+}
+
+.nav{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-item{
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+.nav-item button{
+    text-align: center;
+    width: 100%;
+}
